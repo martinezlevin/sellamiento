@@ -114,24 +114,63 @@ body {
       transform: translateY(350px);
     }
 }
+/* FONTS */
 
 
-  .mea-culpa-regular {
-    font-family: "Mea Culpa", cursive;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 6rem;
+.fleur-de-leah-regular {
+  font-family: "Fleur De Leah", cursive;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 8rem;
+}
+
+.cookie-regular {
+  font-family: "Cookie", cursive;
+  font-weight: 400;
+  font-style: normal;
+}  
+
+.great-vibes-regular {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+@font-face {
+  font-family: 'cochocib-script-latin-pro';
+  src: url(../fonts/cochocib-script-latin-pro.ttf);
+  font-weight: bold;
+  font-style: bold;
+}
+
+
+/* OTHERS */
+
+
+  .david {
+    margin-bottom: -100px;
   }
 
-  .cookie-regular {
-    font-family: "Cookie", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }  
+
+  .selva {
+    margin-top: -100px;
+  }
 
   .titulo-novios {
     color: #ffffff;
+    font-family: 'cochocib-script-latin-pro';
+    font-size: 14rem;
   }
+
+  .titulo-final {
+    color: #ffffff;
+  }
+  
+  .titulo-inicio {
+    color: #ffffff;
+  }
+  
   
   .el-uno {
     color: #d4af37;
@@ -522,7 +561,7 @@ body {
 }
 
 .titulo-regalos {
-  font-size: 5rem;
+  font-size: 7rem;
 }
 
 .marco-flores {
