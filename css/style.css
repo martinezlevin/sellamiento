@@ -160,13 +160,13 @@ body {
   .titulo-novios {
     color: #ffffff;
     font-family: 'cochocib-script-latin-pro';
-    font-size: 14rem;
+    font-size: 8rem;
   }
 
   .titulo-novios1 {
     color: #000000;
     font-family: 'cochocib-script-latin-pro';
-    font-size: 12rem;
+    font-size: 8rem;
   }
 
   .titulo-final {
@@ -175,6 +175,7 @@ body {
   
   .titulo-inicio {
     color: #ffffff;
+    font-size: 6rem;
   }
   
   
@@ -340,7 +341,7 @@ body {
   border: none;
   color: #ffffff;
   cursor: pointer;
-  background-color: #d4af37;
+  background-color: #96562D;
   transition: all 0.2s ease;
 }
 
@@ -434,8 +435,8 @@ body {
     top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #ffffff;
-    font-size: 4em; /* Ajusta el tamaño del texto */
+    color: hsl(0, 0%, 100%);
+    font-size: 3em; /* Ajusta el tamaño del texto */
     z-index: 1;
 }
 
@@ -567,7 +568,7 @@ body {
 }
 
 .titulo-regalos {
-  font-size: 7rem;
+  font-size: 4rem;
 }
 
 .marco-flores {
