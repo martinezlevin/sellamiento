@@ -55,10 +55,16 @@ let intervalo = setInterval(() => {
     parrafoSegundos.innerText = segundos < 10 ? "0" + segundos : segundos;
 
 
-    if (distancia < 0) {
-        clearInterval(intervalo);
-        cuentaAtras.innerHTML = "<p class='grande'>¡Ya llegamos!</p>"
-    }
+if (distancia < 0) {
+    clearInterval(intervalo);
+    cuentaAtras.innerHTML = `
+<div class="d-flex justify-content-center align-items-center" style="height: 200px;">
+  <p class="grande1 w-100 text-center">¡Empezamos!</p>
+</div>
+
+    `;
+}
+
     
 }, 1000)
 
