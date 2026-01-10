@@ -21,7 +21,7 @@ const hideLoader = () => {
 
 //COUNTDOWN
 
-let fecha = new Date(2026, 1, 21, 16, 0);
+let fecha = new Date(2026, 1, 20, 11, 0);
 let msFecha = fecha.getTime();
 
 let parrafoDias = document.querySelector("#dias");
