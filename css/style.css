@@ -555,7 +555,7 @@ body {
 }
 
 .title {
-  color: #111827;
+  color: #5f361c;
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.5rem;
@@ -563,9 +563,16 @@ body {
 
 .message {
   margin-top: 0.5rem;
-  color: #6B7280;
-  font-size: 0.875rem;
+  color: #50543A;
   line-height: 1.25rem;
+}
+
+.modal-title {
+  color: #5f361c;
+}
+
+.modal-subtitle {
+  color: #50543A;  
 }
 
 .actions {
